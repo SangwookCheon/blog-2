@@ -13,22 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog-2" # the subpath of your site, e.g. /blog
+url: "https://sangwookcheon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "SangwookCheon/blog-2"
 twitter_username: jekyllrb
 github_username:  jekyll
 
 author:
-  name: "Your Name"
+  name: "Sangwook Cheon"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "I am an **amazing** person." # Note: Markdown is allowed
-  location: "Somewhere"
   links:
     - label: "Made Mistakes"
       icon: "fas fa-fw fa-link"
@@ -46,10 +47,19 @@ author:
 # Build settings
 markdown: kramdown
 
-remote_theme: "mmistakes/minimal-mistakes@4.21.0" 
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 # Exclude from processing.
@@ -64,7 +74,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ["_pages"]
+include:
+  - _pages
 
 search: true
 
@@ -84,10 +95,11 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
+      author_profile: true
 
   # _foo
   - scope:
