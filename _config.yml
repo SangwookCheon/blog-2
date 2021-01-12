@@ -14,12 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: My Blog
+email: sangwookchn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a blog of Sangwook Cheon. I mainly write about computers and music.
 baseurl: "/blog-2" # the subpath of your site, e.g. /blog
 url: "https://sangwookcheon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "SangwookCheon/blog-2"
@@ -29,20 +27,20 @@ github_username:  jekyll
 author:
   name: "Sangwook Cheon"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  bio: "An aspiring data scientist." # Note: Markdown is allowed
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+    # - label: "Made Mistakes"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://mademistakes.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/SangwookCheon"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/SangwookCheon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/saangwook"
 
 # Build settings
 markdown: kramdown

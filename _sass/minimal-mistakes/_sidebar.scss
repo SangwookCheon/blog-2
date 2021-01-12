@@ -20,8 +20,8 @@
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.75;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.0s ease-in-out;
+    transition: opacity 0.0s ease-in-out;
 
     &:hover {
       opacity: 1;
@@ -41,7 +41,7 @@
   }
 
   > * {
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 1em;
   }
 
@@ -56,7 +56,7 @@
 
   p,
   li {
-    font-family: $sans-serif;
+    font-family: $serif;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -132,7 +132,7 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      border: 2.2px solid $border-color;
     }
   }
 }
@@ -161,12 +161,12 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 2px;
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: $type-size-5;
 }
 
@@ -343,4 +343,3 @@
     margin-right: initial;
   }
 }
-
