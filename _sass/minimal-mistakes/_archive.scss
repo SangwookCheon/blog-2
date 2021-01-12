@@ -39,7 +39,7 @@
   font-family: $serif;
   font-size: $type-size-3;
   color: $muted-text-color;
-  border-bottom: 0.5px solid $border-color;
+  border-bottom: 1.5px solid $lighter-gray; // original $border-color
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
