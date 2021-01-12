@@ -16,4 +16,4 @@ Regular: Research Papers.
 
 > 2021
 
-01-08 **Cat's Cradle**, Kurt Vonnegut. There needs be a review here.
+01-08 **Cat's Cradle**, Kurt Vonnegut.
