@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  Hi, this is a very, very, very, very long post, so you better not read it. Period. Alright?
 date:   2021-01-10 19:14:39 +0700
 categories: jekyll
 ---
@@ -7,14 +7,19 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+> This is a blockquote.
+
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
+{% highlight python %}
+def print_hi(name):
+  print "Hi, #{name}"
+  return none
 print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+# prints 'Hi, Tom' to STDOUT.
+
+2 == 3. False, True.
+
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
