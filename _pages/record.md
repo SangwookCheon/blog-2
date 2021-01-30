@@ -16,6 +16,8 @@ Regular: Research Papers.
 
 > 2021
 
+01-30 [DDSP: Differential Digital Signal Processing](https://openreview.net/pdf?id=B1x1ma4tDr). One of the landmark research done by Magenta at Google.
+
 01-14 **A Promised Land,** Barack Obama. *I should, like Obama, find a job that I will love even when it doesn't love me back.*
 
 01-12 **The Brothers Karamazov,** Fyodor Dostoyevsky (Penguin). *Spirituality should be simple in my heart, however complicated in my mind.*
